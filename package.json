@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-babo",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Eslint settings from BABO team",
   "main": "./index.js",
   "repository": {
