@@ -19,7 +19,6 @@ module.exports = {
     },
     "globals": {
         "global": false,
-        "expect": false,
         "require": false,
         "DEBUG": false,
         "TEST_REGEXP": false
