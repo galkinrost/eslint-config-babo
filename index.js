@@ -129,7 +129,7 @@ module.exports = {
         "react/jsx-closing-bracket-location": 2,
         "react/jsx-handler-names": 2,
         "react/jsx-key": 2,
-        "react/jsx-no-bind": 2,
+        "react/jsx-no-bind": [2, {"ignoreRefs": true}],
         "react/jsx-no-duplicate-props": 2,
         "react/jsx-no-undef": 2,
         "react/jsx-uses-react": 2,
