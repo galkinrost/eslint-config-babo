@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-babo",
+  "version": "0.0.1",
+  "description": "Eslint settings from BABO team",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Babo-Ltd/eslint-config-babo.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "eslint",
+    "reactjs",
+    "babel"
+  ],
+  "author": "Galkin Rostislav <galkinrost@gmail.com> (http://github.com/galkinrost)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Babo-Ltd/eslint-config-babo/issues"
+  },
+  "homepage": "https://github.com/Babo-Ltd/eslint-config-babo#readme",
+  "scripts": {
+    "lintValid": "eslint ./sandbox/valid",
+    "lintInvalid": "eslint ./sandbox/invalid"
+  },
+  "devDependencies": {
+    "babel-core": "6.5.2",
+    "eslint": "2.2.0"
+  },
+  "dependencies": {
+    "babel-eslint": "5.0.0",
+    "eslint-plugin-mocha": "2.0.0",
+    "eslint-plugin-react": "4.0.0"
+  }
+}
