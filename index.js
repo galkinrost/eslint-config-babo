@@ -36,7 +36,7 @@ module.exports = {
         "no-extra-bind": 2,
         "no-floating-decimal": 2,
         "no-invalid-this": 2,
-        "no-magic-numbers": [2, {"ignore": [-1, 0]}],
+        "no-magic-numbers": [2, {"ignore": [-1, 0, 1]}],
         "no-multi-spaces": 2,
         "no-multi-str": 2,
         "no-throw-literal": 2,
