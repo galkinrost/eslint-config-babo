@@ -26,6 +26,7 @@ module.exports = {
     "rules": {
         // Best Practices
         "array-callback-return": 2,
+        "curly": 2,
         "dot-location": [2, "property"],
         "dot-notation": 2,
         "eqeqeq": [2, "smart"],
